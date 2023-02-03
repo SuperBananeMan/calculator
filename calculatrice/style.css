@@ -1,0 +1,63 @@
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.ecrans {
+	border: 2px solid grey;
+	border-radius: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+}
+
+.ecran_haut {
+	border: 2px solid grey;
+	width: 99%;
+	height: 50px;
+	text-align: right;
+}
+
+.ecran_bas {
+	border: 2px solid grey;
+	width: 39.5%;
+	width: 99%;
+	height: 50px;
+	text-align: right;
+}
+
+.boutons {
+	border: 2px solid grey;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	width: 40%;
+}
+
+.bouton {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 20%;
+	background-color: white;
+}
+
+.bouton-spe {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 44%;
+	background-color: white;
+}
+
+.bouton-plus-spe {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	width: 98.5%;
+	background-color: white;
+}
+
+.conerie {
+	margin-top: 2000px;
+	text-align: center;
+	display: none;
+}

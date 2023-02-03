@@ -1,0 +1,19 @@
+CREATE TABLE Utilisateur
+(
+    NumUser INT(8),
+    Pseudo VARCHAR(30),
+    Psswrd VARCHAR(20),
+    email VARCHAR(50),
+    Validation BOOLEAN,
+PRIMARY KEY (NumUser)
+)
+
+CREATE TABLE Calculs
+(
+    NumCalc INT(8),
+    Calc VARCHAR(50),
+    IdUser INT(20),
+PRIMARY KEY (NumCalc)
+FOREIGN KEY (IdUser) REFERENCES Utilisateur(NumUser)
+)
+
