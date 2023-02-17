@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width",
+		initial-scale="1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/x-icon" href="icon.png">
+		<title>Calculatrice</title>
+	</head>
+	
+	<body>
+		<section class="ecrans">
+			<input type="text" class="ecran_haut" id="nombre_haut">
+			<input type="number" class="ecran_bas" id="nombre_bas" value="">
+		</section>
+		
+		<section class="boutons">
+			<button onclick="symbols(liste_chiffre[10])" type="button" class="bouton" id="pourc" name="" value="% de ">%</button>
+			<button onclick="eff_ligne()" type="button" class="bouton" id="ce" name="">CE</button>
+			<button onclick="tout_eff()" type="button" class="bouton" id="c" name="">C</button>
+			<button onclick="eff_dernier()" type="button" class="bouton" id="eff" name="">&#8592;</button>
+			<button onclick="chiffre(liste_chiffre[7])" type="button" class="bouton" id="sept" name="" value="7">7</button>
+			<button onclick="chiffre(liste_chiffre[8])" type="button" class="bouton" id="huit" name="" value="8">8</button>
+			<button onclick="chiffre(liste_chiffre[9])" type="button" class="bouton" id="neuf" name="" value="9">9</button>
+			<button onclick="symbols(liste_chiffre[11])" type="button" class="bouton" id="divi" name="" value=" ÷ ">÷</button>
+			<button onclick="chiffre(liste_chiffre[4])" type="button" class="bouton" id="quatre" name="" value="4">4</button>
+			<button onclick="chiffre(liste_chiffre[5])" type="button" class="bouton" id="cinq" name="" value="5">5</button>
+			<button onclick="chiffre(liste_chiffre[6])" type="button" class="bouton" id="six" name="" value="6">6</button>
+			<button onclick="symbols(liste_chiffre[12])" type="button" class="bouton" id="x" name="" value=" x ">x</button>
+			<button onclick="chiffre(liste_chiffre[1])" type="button" class="bouton" id="un" name="" value="1">1</button>
+			<button onclick="chiffre(liste_chiffre[2])" type="button" class="bouton" id="deux" name="" value="2">2</button>
+			<button onclick="chiffre(liste_chiffre[3])" type="button" class="bouton" id="trois" name="" value="3">3</button>
+			<button onclick="symbols(liste_chiffre[13])" type="button" class="bouton" id="moins" name="" value=" - ">-</button>
+			<button onclick="chiffre(liste_chiffre[0])" type="button" class="bouton-spe" id="zero" name="" value="0">0</button>
+			<button onclick="symbols(liste_chiffre[14])" type="button" class="bouton" id="virgule" name="" value=".">.</button>
+			<button onclick="symbols(liste_chiffre[15])" type="button" class="bouton" id="plus" name="" value=" + ">+</button>
+			<button onclick="egale()" type="button" class="bouton-plus-spe" id="egal" name="">=</button>
+		</section>
+	<script src="script.js"></script>
+	</body>
+
+</html>
